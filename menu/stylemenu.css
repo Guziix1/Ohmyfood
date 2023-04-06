@@ -332,6 +332,8 @@ footer h2 {
     font-family: "Shrikhand";
     margin-left: 20px;
     margin-block-start: 0;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
 footer p, a {

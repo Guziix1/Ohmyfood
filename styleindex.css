@@ -64,6 +64,8 @@ input::placeholder {
     flex-direction: column;
     background-color: #F7F7F7;
     height: 240px;
+    text-align: center;
+    align-items: center;
 
 }
 
@@ -82,16 +84,21 @@ input::placeholder {
 }
 
 .presentation h1 {
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .presentation p {
     display: flex;
     justify-content: center;
+    font-size: 17px;
+    color: grey;
+    margin-block-start: 0;
+    margin-bottom: 30px;
 
 }
+
 
 .button {
     border-radius: 20px;
@@ -188,8 +195,10 @@ input::placeholder {
 }
 
 .fonctionnement strong {
-    font-size: 35px;
-    margin: 60px 0 30px 20px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 45px;
 
 }
 
@@ -230,6 +239,8 @@ input::placeholder {
     color: grey;
     display: flex;
     align-items: center;
+    margin-left: -10px;
+    margin-right: 20px;
 
 }
 
@@ -328,7 +339,7 @@ section {
 }
 
 section strong {
-    font-size: 30px;
+    font-size: 25px;
     margin: 60px 0 10px 20px
 }
 
@@ -342,6 +353,8 @@ footer h2 {
     font-family: "Shrikhand";
     margin-left: 20px;
     margin-block-start: 0;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
 footer p, a {

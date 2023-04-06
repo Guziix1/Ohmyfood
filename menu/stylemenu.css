@@ -213,7 +213,7 @@ strong {
 
 }
 
-.menu:hover .card_check i {
+.menu:active .card_check i {
     display: flex;
     width: 50px;
     height: 50px;
@@ -224,11 +224,11 @@ strong {
 
 
 
-.menu:hover .card_check {
+.menu:active .card_check {
     animation: coche_animation 0.5s linear 0s forwards;
 }
 
-.menu:hover .plus {
+.menu:active .plus {
     animation: plus_animation 0.5s linear 0s forwards;
     
 }

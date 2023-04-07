@@ -7,13 +7,16 @@ body {
 }
 
 #logo {
-    width: 200px;
+    width: 150px;
+    
 
 }
 
 header {
     display: flex;
     justify-content: center;
+    margin-top: 25px;
+
 }
 
 .top {
@@ -111,8 +114,6 @@ input::placeholder {
     justify-content: center;
     align-items: center;
     width: 220px;
-    margin-left: 30%;
-    margin-top: 3%;
     cursor: pointer;
 }
 

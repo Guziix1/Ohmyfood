@@ -134,13 +134,67 @@ section h1 {
     background-color: white;
     display: flex;
     cursor: pointer;
+    
 
 }
 
 .food {
     margin-top: 30px;
-    animation: fadein 2s;
+    width: 100%;
+   
 }
+
+.menu {
+    opacity: 0;
+    margin-top: 10%;
+    width: 93%;
+}
+
+
+.menu-1 {
+    animation: fadein 2s ease-in-out 0.2s forwards;
+}
+
+.menu-2 {
+    animation: fadein 2s ease-in-out 0.4s forwards;
+}
+
+.menu-3 {
+    animation: fadein 2s ease-in-out 0.6s forwards;
+}
+
+.menu-4 {
+    animation: fadein 2s ease-in-out 0.8s forwards;
+}
+
+.menu-5 {
+    animation: fadein 2s ease-in-out 1s forwards;
+}
+
+.menu-6 {
+    animation: fadein 2s ease-in-out 1.2s forwards;
+}
+
+.menu-7 {
+    animation: fadein 2s ease-in-out 1.4s forwards;
+}
+
+.menu-8 {
+    animation: fadein 2s ease-in-out 1.6s forwards;
+}
+
+.menu-9 {
+    animation: fadein 2s ease-in-out 1.8s forwards;
+}
+
+.menu-10 {
+    animation: fadein 2s ease-in-out 2s forwards;
+}
+
+.menu-11 {
+    animation: fadein 2s ease-in-out 2.2s forwards;
+}
+
 
 .menu h2 {
     margin-block-start: 0;
@@ -155,7 +209,7 @@ section h1 {
     display: flex;
     margin-left: 2%;
     flex-direction: column;
-    width: 90%;
+    width: 70%;
 }
 
 .plus p {
@@ -170,9 +224,9 @@ section h1 {
 .price {
     font-weight: bold;
     margin-right: 25px;
-    width: 10%;
+    width: 30%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: end;
 }
 
@@ -205,20 +259,23 @@ strong {
 
 .card_check i {
 
-    width: 0px;
-    display: none;
-    font-size: 50px;
+    width: 50px;
+    display: flex;
     text-align: center;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 
 
 }
 
-.menu:active .card_check i {
+.menu:active  i {
     display: flex;
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    animation: rotation_check 0.5s linear;
+    animation: rotation_check 0.5s linear forwards;
 
 }
 
@@ -292,10 +349,12 @@ strong {
 
     from {
         transform: rotate(0deg);
+        opacity: 1;
     }
 
     to {
         transform: rotate(360deg);
+        opacity: 1;
     }
 
 
@@ -307,11 +366,14 @@ strong {
 @keyframes fadein {
     from {
         opacity: 0;
+        margin-top: 10%;
     }
 
     to {
         opacity: 1;
+        margin-top: 3%;
     }
+
 }
 
 

@@ -135,14 +135,14 @@ section h1 {
     background-color: white;
     display: flex;
     cursor: pointer;
-    
+
 
 }
 
 .food {
     margin-top: 30px;
     width: 100%;
-   
+
 }
 
 .menu {
@@ -269,6 +269,7 @@ strong {
     justify-content: center;
     align-items: center;
     opacity: 0;
+    font-size: 25px;
 
 
 }
@@ -290,7 +291,7 @@ strong {
 
 .menu:hover .plus {
     animation: plus_animation 0.5s linear 0s forwards;
-    
+
 }
 
 @keyframes coche_animation {
@@ -386,7 +387,6 @@ strong {
 
 
 
-
 footer {
     background-color: #353535;
     height: 220px;
@@ -408,6 +408,11 @@ footer p {
     text-decoration: none;
 
 
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
 
 

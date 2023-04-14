@@ -212,6 +212,7 @@ section h1 {
     margin-left: 2%;
     flex-direction: column;
     width: 70%;
+    overflow: hidden;
 }
 
 .plus p {
@@ -272,7 +273,7 @@ strong {
 
 }
 
-.menu:active i {
+.menu:hover i {
     display: flex;
     width: 50px;
     height: 50px;
@@ -283,11 +284,11 @@ strong {
 
 
 
-.menu:active .card_check {
+.menu:hover .card_check {
     animation: coche_animation 0.5s linear 0s forwards;
 }
 
-.menu:active .plus {
+.menu:hover .plus {
     animation: plus_animation 0.5s linear 0s forwards;
     
 }
@@ -401,7 +402,7 @@ footer h2 {
     font-weight: normal;
 }
 
-footer p, a {
+footer p {
     color: white;
     margin-left: 20px;
     text-decoration: none;
@@ -417,7 +418,7 @@ footer p, a {
 @media screen and (min-width: 1024px) {
 
     .menu {
-        width: 100%;
+        width: 90%;
     }
 
 
@@ -427,6 +428,10 @@ footer p, a {
         justify-content: space-between;
         margin-left: 2%;
         margin-right: 2%;
+    }
+
+    .food {
+        width: 30%;
     }
 
 }

@@ -359,12 +359,17 @@ footer h2 {
     font-weight: normal;
 }
 
-footer p, a {
+footer p {
     color: white;
     margin-left: 20px;
     text-decoration: none;
 
 
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
 
 

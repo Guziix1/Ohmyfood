@@ -7,9 +7,9 @@ body {
 }
 
 #logo {
-    width: 200px;
+    width: 160px;
     display: flex;
-    margin-left: 40px;
+    margin-left: 56px;
 }
 
 header {
@@ -50,7 +50,7 @@ header a {
     font-size: 25px;
     margin-top: 28px;
     position: relative;
-    color: #9356DC;
+   
 
 }
 
@@ -59,7 +59,7 @@ header a {
     top: 0;
     right: 0;
     transition-property: opacity;
-    transition-duration: 0.5s;
+    transition-duration: 0s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
 
@@ -71,6 +71,7 @@ header a {
 
 .heart:hover .filled-heart {
     opacity: 1;
+    color: #9356DC
 }
 
 .heart:hover .empty-heart {
@@ -124,6 +125,7 @@ section {
 section h1 {
     font-family: "Shrikhand";
     margin-left: 2%;
+    font-weight: normal;
 }
 
 .menu {
@@ -239,6 +241,7 @@ strong {
     padding-block-end: 3px;
     display: flex;
     width: 7%;
+    font-weight: normal;
 
 }
 

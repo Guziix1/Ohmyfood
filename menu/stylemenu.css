@@ -429,6 +429,7 @@ footer a {
 
     .menu {
         width: 90%;
+        height: 23%;
     }
 
 
@@ -442,6 +443,10 @@ footer a {
 
     .food {
         width: 30%;
+    }
+
+    .button {
+        width: 20%;
     }
 
 }

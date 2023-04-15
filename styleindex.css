@@ -90,6 +90,8 @@ input::placeholder {
     font-size: 25px;
     display: flex;
     justify-content: space-around;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .presentation p {
@@ -99,6 +101,8 @@ input::placeholder {
     color: grey;
     margin-block-start: 0;
     margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
 
 }
 
